@@ -19,11 +19,6 @@ h1, h2, h3, h4, p {
   text-shadow: 0px 0px 1px black;
 }
 
-/*
-Challenge:
-Make the bday elements look like the
-provided design slide.
-*/
 
 #bday-age {
   background: #EFB0C9;
@@ -39,9 +34,37 @@ provided design slide.
   margin: 0;
 }
 
-#header {
+#header  {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  width: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+
+/*
+Challenge:
+1. Create a "gift-section" <div> that will wrap
+   all the elements for the first gift.
+2. Add the <h2>, <h3>, and <img> elements, and
+   give all of them their own classes.
+3. Style the elements according to the design.
+
+PS: the image should be 400px wide.
+*/
