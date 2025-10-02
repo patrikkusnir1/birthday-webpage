@@ -3,15 +3,10 @@ body {
   font-family: "Happy Monkey", system-ui;
   background: #a2d2ff;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-/*
-Challenge:
-Add a thin blurred border around the <h1>, <h2>, 
-and <h4> using the text-shadow technique you 
-learned in the Space Exploration section. Set
-the blur to 1px and the color to black.
-*/
 
 #bff-img {
   width: 150px;
@@ -22,4 +17,8 @@ the blur to 1px and the color to black.
 
 h1, h2, h3, h4, p {
   text-shadow: 0px 0px 1px black;
+}
+
+h2, h4 {
+  background: #EFB0C9;
 }
