@@ -52,15 +52,6 @@ h1, h2, h3, h4, p {
   margin-top: 0;
 }
 
-/*
-Challenge:
-"Fix" the "gift-img" <div> so that it looks 
-like the provided design again.
-
-It needs a height (should be a square), a
-background image, and to be centered again.
-*/
-
 .gift-img {
   width: 400px;
   height: 400px;
@@ -69,5 +60,14 @@ background image, and to be centered again.
   background-image: url("images/gift-cover.jpg");
   background-size: cover;
   margin: 0 auto; /* center the img */ 
+}
+
+/*
+Challenge:
+Swap the gift paper image out with
+the happy.gif when you hover over it!
+*/
+.gift-img:hover {
+  background-image: url("images/happy.gif");
 }
 
