@@ -52,6 +52,10 @@ h1, h2, h3, h4, p {
   margin-top: 0;
 }
 
+#gift-img-cheers {
+  height: 200px;
+}
+
 .gift-img {
   width: 400px;
   height: 400px;
@@ -67,25 +71,31 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-hot:hover {
-  background-image: url("images/hot.gif")
+  background-image: url("images/hot.gif");
 }
 
 #gift-img-genius:hover {
-  background-image: url("images/genius.gif")
+  background-image: url("images/genius.gif");
 }
 
 #gift-img-badass:hover {
-  background-image: url("images/badass.gif")
+  background-image: url("images/badass.gif");
+}
+
+
+#gift-img-cheers:hover {
+  background-image: url("images/cheers.gif");
 }
 
 /*
 Challenge:
-Create the "genius" and "badass" GIFt sections.
+Create the "cheers" GIFt section.
 
-Texts:
-If I had to describe you with ONE word 👇
+Note: this GIFt should have a height of 200px. 
+Select the #gift-img-cheers id and override 
+the height that the element got from the 
+.gift-img class.
 
-The only person as badass as you 💪
-
+Text: 
+This one's for you, my friend 🥂
 */
-
