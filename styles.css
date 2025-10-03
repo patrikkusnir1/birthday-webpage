@@ -62,12 +62,24 @@ h1, h2, h3, h4, p {
   margin: 0 auto; /* center the img */ 
 }
 
-/*
-Challenge:
-Swap the gift paper image out with
-the happy.gif when you hover over it!
-*/
-.gift-img:hover {
+#gift-img-happy:hover {
   background-image: url("images/happy.gif");
 }
+
+#gift-img-hot:hover {
+  background-image: url("images/hot.gif")
+}
+
+/*
+Challenge:
+Create the next GIFt (hot.gif). Its HTML structure 
+should be like the previous one, but without the 
+"gift-hint" element.
+
+However, now that you have multiple GIFts on the page,
+you cannot use the "gift-img" class to set the GIF 
+background-image(s) on :hover. Each GIFt will need a 
+unique id that controls which background image that 
+should be shown when hovering over the element.
+*/
 
